@@ -345,10 +345,10 @@
   content: '\e7ab'; }
 
 .waituk-icon-angle-left:before {
-  content: '🢀'; }
+  content: '⇦'; }
 
 .waituk-icon-angle-right:before {
-  content: '🢂'; }
+  content: '⇨'; }
 
 .waituk-icon-ios-more:before {
   content: '\e8ce'; }
