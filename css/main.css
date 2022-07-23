@@ -115,6 +115,9 @@ img {
 	height: 48px !important;
 	width: 48px !important;
 }
+.journalTable{
+	width: fit-content;
+}
 
 /* .drLogoImg{
 	width: 44px !important;
