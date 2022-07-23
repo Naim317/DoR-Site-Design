@@ -154,6 +154,15 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 1.1;
 	font-weight: 500;
 }
+.page-header-text{
+	font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 0 0 .9375rem;
+	font-size: 32px;
+	color: #ffffff;
+	line-height: 1.5;
+	font-weight: 700;
+	text-shadow: 2px 2px 4px #000000;
+}
 
 h1 {
 	font-size: 1.625rem;
@@ -4392,6 +4401,14 @@ main.no-banner {
 }
 
 @media screen and (max-width: 576px) {
+	.page-header-text{
+		font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 24px;
+		color: #ffffff;
+		line-height: 1.5;
+		margin-top: 4.5rem;
+		font-weight: 700;
+	}
 	h1 {
 		font-size: 1.875rem;
 	}
@@ -4584,8 +4601,25 @@ main.no-banner {
 		font-size: .9375rem;
 	}
 }
-
+@media screen and (max-width: 767px){
+	.page-header-text{
+		font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 24px;
+		color: #ffffff;
+		line-height: 1.5;
+		margin-top: 4.5rem;
+		font-weight: 700;
+	}
+}
 @media screen and (min-width: 767px) {
+	.page-header-text{
+		font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 32px;
+		color: #ffffff;
+		line-height: 1.5;
+		margin-top: 4rem;
+		font-weight: 700;
+	}
 	body {
 		font-size: .8571rem;
 	}
@@ -5093,7 +5127,7 @@ main.no-banner {
 	}
 
 	.pricing-box-v1.pricing-box-v2 {
-		margin-top: 5rem;
+		margin-top: 4.5rem;
 	}
 
 	.demo-wrapper .row [class*='col-']:nth-of-type(1) .pricing-box-v1:first-child {
@@ -5101,7 +5135,7 @@ main.no-banner {
 	}
 
 	.demo-wrapper .row [class*='col-']:nth-of-type(1) .pricing-box-v2:first-child {
-		margin-top: 5rem;
+		margin-top: 4.5rem;
 	}
 
 	.icon-lists.inline-block ul li {
@@ -5223,7 +5257,7 @@ main.no-banner {
 	}
 
 	.top-l-space {
-		margin-top: 5rem;
+		margin-top: 4.5rem;
 	}
 
 	.top-space {
