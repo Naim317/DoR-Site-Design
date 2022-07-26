@@ -85,6 +85,9 @@
 .h-500{
 	height: 350px;
 }
+.cpText{
+	margin-bottom: -30px;
+}
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -4633,6 +4636,9 @@ main.no-banner {
 		margin-top: 4.5rem;
 		font-weight: 700;
 	}
+	.slider-main-title{
+		font-size: 48px !important;
+	}
 }
 @media screen and (min-width: 767px) {
 	.page-header-text{
@@ -5484,7 +5490,7 @@ main.no-banner {
 	}
 
 	.slider-main-title {
-		font-size: 3rem;
+		font-size: 10rem;
 	}
 
 	.slider-sub-title {
