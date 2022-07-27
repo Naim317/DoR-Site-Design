@@ -4887,7 +4887,7 @@ main.no-banner {
 		margin: 1.875rem;
 	}
 	.main-header .navbar .navbar-nav li .dropdown-menu {
-		min-width: 15rem;
+		min-width: max-content;
 	}
 
 	.bordered-document .main-header {
@@ -5790,7 +5790,7 @@ main.no-banner {
 	}
 
 	.main-header .navbar .navbar-nav li .dropdown-menu {
-		max-width: 15rem;
+		min-width: 15rem;
 	}
 
 	.main-header .navbar .navbar-nav li .dropdown-menu li {
@@ -6047,6 +6047,12 @@ main.no-banner {
 	.main-header.header-logo-center .navbar .navbar-nav > li.p-static {
 		position: relative;
 	}
+	.main-header .navbar .navbar-nav li .dropdown-menu {
+		
+		min-width: max-content;
+
+		
+	}
 
 	.main-header.sticky-nav.header-logo-center .navbar .navbar-nav > li.p-static .dropdown-menu {
 		left: auto;
@@ -6250,7 +6256,9 @@ main.no-banner {
 	}
 
 	.main-header .navbar .navbar-nav li .dropdown-menu {
-		min-width: 15rem;
+		
+		min-width: max-content;
+
 		
 	}
 
