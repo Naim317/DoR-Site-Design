@@ -2697,7 +2697,7 @@ em.state-invalid {
 
 .main-header .navbar .navbar-nav li {
 	text-transform: uppercase;
-	font-size: .60rem;
+	font-size: .65rem;
 	font-weight: 500;
 	color: #fff;
 	-webkit-transition: all linear .2s;
@@ -6059,6 +6059,27 @@ main.no-banner {
 		-webkit-transform: none;
 		-o-transform: none;
 		transform: none;
+	}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1050px) {
+	.main-header .navbar .navbar-nav li {
+		font-size: .42rem;
+	}
+}
+@media only screen and (min-width: 1051px) and (max-width: 1120px) {
+	.main-header .navbar .navbar-nav li {
+		font-size: .47rem;
+	}
+}
+@media only screen and (min-width: 1121px) and (max-width: 1212px) {
+	.main-header .navbar .navbar-nav li {
+		font-size: .55rem;
+	}
+}
+@media only screen and (min-width: 1213px) and (max-width: 1284px) {
+	.main-header .navbar .navbar-nav li {
+		font-size: .59rem;
 	}
 }
 
