@@ -6036,6 +6036,14 @@ main.no-banner {
 	}
 }
 
+
+	/* Some custom MQ */
+@media screen and (min-width: 768px) and (max-width: 794px) {
+	.slider-main-title{
+		font-size: 48px !important;
+	}
+}
+
 @media only screen and (min-width: 992px) and (max-width: 991px) {
 	.main-header.header-logo-center .navbar .navbar-nav > li a {
 		padding-left: .4rem;
