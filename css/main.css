@@ -88,6 +88,9 @@
 .cpText{
 	margin-bottom: -30px;
 }
+.dropdown-menu{
+	border-radius: 5px !important;
+}
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -3019,7 +3022,7 @@ em.state-invalid {
 }
 
 .main-header.header-white .navbar .navbar-nav li .dropdown-menu li a {
-	color: #6e6e6e;
+	color: #181717;
 }
 
 .main-header.header-white .navbar .navbar-nav li .dropdown-menu li:hover {
@@ -3027,21 +3030,14 @@ em.state-invalid {
 }
 
 .main-header.header-white .navbar .navbar-nav li .dropdown-menu li:hover > a {
-	color: #55565b;
+	color: #000000;
+	font-weight: 600;
 }
 
 .main-header.header-white .row-autoheight .col-autoheight:not(:first-child) {
 	border-color: #f8f8f8;
 }
 
-.main-header.header-white .navbar-pos-search a {
-	color: #55565b;
-}
-
-.main-header.header-white #top-search input {
-	background: #fff;
-	color: #c1c5cd;
-}
 
 .main-header.header-white .i-list.i-list-i-block.i-list-i-block-sm li a:hover {
 	color: #a7a7a7;
@@ -3789,10 +3785,11 @@ main.no-banner {
 	text-transform: uppercase;
 	letter-spacing: 0;
 	font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+	font-weight: 900;
 	z-index: 999;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 	padding-top: .0625rem;
+	border-radius: 5px;
 }
 
 .section-scroll:hover {
