@@ -2710,7 +2710,7 @@ em.state-invalid {
 
 .main-header .navbar .navbar-nav li a {
 	color: #fff;
-	padding: 2.25rem .8rem;
+	padding: 2.25rem .6rem;
 	display: inline-block;
 	line-height: 2.1;
 }
@@ -6976,11 +6976,11 @@ main.no-banner {
 
 	.main-header .navbar .navbar-nav li u {
 		display: block;
-		padding: .4rem .9375rem;
+		padding: 2.25rem .6rem;
 	}
 
 	.main-header .navbar .navbar-nav li a {
-		padding: .4rem .9375rem;
+		padding: 2.25rem .6rem;
 		line-height: 2.1;
 		display: block;
 	}
@@ -7147,7 +7147,7 @@ main.no-banner {
 	}
 
 	.main-header.sticky-nav .navbar .navbar-nav .dropdown-menu li a {
-		padding: .4rem .9375rem;
+		padding: .2rem .6375rem;
 	}
 
 	.main-header.sticky-nav .navbar-pos-search {
